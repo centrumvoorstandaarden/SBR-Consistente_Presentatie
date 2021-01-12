@@ -37,7 +37,6 @@ In de rendering dient gebruik gemaakt te worden van de unitName in de UTR of een
 _Voorbeeld_
 
 | **Eenheid in instance document** | **Naam van eenheid volgens UTR** | **Vertaling naar het Nederlands**
- |
 | --- | --- | --- |
 | iso4212:EUR | 'EUR' | <niet van toepassing> |
 | iso4212:USD | 'USD' | <niet van toepassing> |
