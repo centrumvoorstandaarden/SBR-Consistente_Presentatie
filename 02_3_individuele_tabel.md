@@ -19,12 +19,8 @@ _Voorbeeld_
 
 In de tabel van de balans worden de kolommen voor de huidige periode aangeduid met de headers 'Huidig' en 'Voorgaand'. Dit zijn de statische labels. In de taxonomie zijn hiervoor ook dynamische labels opgenomen. Deze verwijzen naar de einddatums van de huidige en voorgaande rapportageperiode die als feit zijn opgenomen in het instance document.
 
-<aside class="note">
-Hier wordt een voorbeeld getoond. Dit zou misschien als tabel moeten
-</aside>
-
-|-------------------|-------------------|
 |**Statisch label** |**Dynamisch label**|
+|-------------------|-------------------|
 |                   |                   |
 |Huidig             |2017-12-31         |
 |Voorgaand          |2016-12-31         |
