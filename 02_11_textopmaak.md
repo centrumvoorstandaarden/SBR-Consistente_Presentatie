@@ -16,18 +16,14 @@ _Voorbeeld_
 
 _Instance document:_
 
-<concept>Deze tekst
-
-maakt
-
-gebruik van line breaks.</concept>
+\<concept\>Deze tekst\
+maakt\
+gebruik van line breaks.\<\/concept\>
 
 _Rendering:_
 
-Deze tekst
-
-maakt
-
+Deze tekst\
+maakt\
 gebruik van line breaks.
 
 **SCP-30: De Consistente Presentatie MOET leiden tot een voor de mens goed leesbare rendering**
@@ -47,12 +43,15 @@ leesbare rendering ligt zodoende bij de opsteller van de rapportage.
 Het tonen van een telstreep is een methode om visueel weer te geven dat sprake is van een (sub)totaal. De telstreep dient boven het bedrag van het sub(totaal) getoond te worden. De (sub)totalen zijn in een tabel te herkennen doordat zij in de taxonomie als een totalLabel bij het @preferredLabel attribuut van een arc worden aangeroepen.
 
 _Voorschrift_
-
-Voorraad grond- en hulpstoffen 10.000
-
-Voorraad gereed product en handelsgoederen 20.000
-
-Totaal van voorraden 30.000
+<aside class="issue" data-number="1">
+Moet nog uitzoeken hoe tekst te onderstrepen in Markdown
+</aside>
+|                                              |            |
+|----------------------------------------------|------------|
+|Voorraad grond- en hulpstoffen                |10.000      |
+|Voorraad gereed product en handelsgoederen    |20.000      |
+|                                              |            |
+|Totaal van voorraden                          |30.000      |
 
 **SCP-30.2 De Consistente Presentatie MAG totalen visueel aanduiden met een enkele of dubbele**
 
@@ -60,13 +59,17 @@ Totaal van voorraden 30.000
 
 Het is toegestaan om totalen, zowel subtotalen als eindtotalen, te voorzien van een enkele of dubbele telstreep onder het totaal. Deze totalen zijn te herkennen doordat zij door middel van een totalLabel worden aangeroepen in de taxonomie. Hierbij zijn eindtotalen te herkennen doordat zij in een roll-up node de hoogste 'parent' zijn die niet een sbr:presentationItem is.
 
+<aside class="issue" data-number="1">
+Moet nog uitzoeken hoe tekst te onderstrepen in Markdown
+</aside>
+
 _Voorbeeld_
-
-Voorraad grond- en hulpstoffen 10.000
-
-Voorraad gereed product en handelsgoederen 20.000
-
-Totaal van voorraden 30.000
+|                                              |            |
+|----------------------------------------------|------------|
+|Voorraad grond- en hulpstoffen                |10.000      |
+|Voorraad gereed product en handelsgoederen    |20.000      |
+|                                              |            |
+|Totaal van voorraden                          |30.000      |
 
 **SCP-30.3: VERVALLEN**
 
