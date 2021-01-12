@@ -46,6 +46,7 @@ _Voorschrift_
 <aside class="issue" data-number="1">
 Moet nog uitzoeken hoe tekst te onderstrepen in Markdown
 </aside>
+
 |                                              |            |
 |----------------------------------------------|------------|
 |Voorraad grond- en hulpstoffen                |10.000      |
@@ -91,21 +92,21 @@ Het totaal dient als anker; oftewel het balanceType van het totaal is leidend. P
 
 _Voorschrift_
 
-Voorbeeld zonder toepassing van het algoritme:
+|Voorbeeld zonder toepassing van het algoritme  |      |
+|-----------------------------------------------|------|
+|Bruto vorderingen op handelsdebiteuren         |100   |
+|Voorziening voor oninbaarheid                  |10    |
+|Netto vorderingen op handelsdebiteuren         |90    |
 
-Bruto vorderingen op handelsdebiteuren 100
 
-Voorziening voor oninbaarheid 10
 
-Netto vorderingen op handelsdebiteuren 90
 
-Voorbeeld met toepassing van het algoritme:
 
-Bruto vorderingen op handelsdebiteuren 100
-
-Voorziening voor oninbaarheid -10
-
-Netto vorderingen op handelsdebiteuren 90
+|Voorbeeld met toepassing van het algoritme     |      |
+|-----------------------------------------------|------|
+|Bruto vorderingen op handelsdebiteuren         |100   |
+|Voorziening voor oninbaarheid                  |-10   |
+|Netto vorderingen op handelsdebiteuren         |90    |
 
 Wanneer de waarde '0' is, moet - ondanks een afwijkend balanceType geen minteken worden
 
@@ -121,29 +122,21 @@ De winst- en verliesrekening volgens de categoriale indeling moet worden gerende
 
 _Voorbeeld_
 
-Bruto-bedrijfsresultaat X
+|                                                               |   |
+|---------------------------------------------------------------|---|
+|Bruto-bedrijfsresultaat                                        |X  |
+|Lasten uit hoofde van personeelsbeloningen                     |X  |
+|Afschrijvingen op immateriële en materiële vaste activa        |X  |
+|Waardeveranderingen van immateriële en materiële vaste activa  |-X |
+|Waardeveranderingen van vastgoedbeleggingen                    |X  |
+|Gerealiseerde waardeveranderingen van beleggingen              |X  |
+|Niet-gerealiseerde waardeveranderingen van beleggingen         |X  |
+|Waardeveranderingen van agrarische voorraden                   |X  |
+|Bijzondere waardeverminderingen van vlottende activa           |   |
+|Overige bedrijfskosten                                         |X  |
+|Totaal van som der kosten                                      |X  |
+|Totaal van bedrijfsresultaat                                   |X  |
 
-Lasten uit hoofde van personeelsbeloningen X
-
-Afschrijvingen op immateriële en materiële vaste activa X
-
-Waardeveranderingen van immateriële en materiële vaste activa -X
-
-Waardeveranderingen van vastgoedbeleggingen X
-
-Gerealiseerde waardeveranderingen van beleggingen X
-
-Niet-gerealiseerde waardeveranderingen van beleggingen X
-
-Waardeveranderingen van agrarische voorraden X
-
-Bijzondere waardeverminderingen van vlottende activa
-
-Overige bedrijfskosten X
-
-Totaal van som der kosten Xv
-
-Totaal van bedrijfsresultaat X
 
 Opbrengst van vorderingen die tot de vaste activa behoren en van effecten X
 
