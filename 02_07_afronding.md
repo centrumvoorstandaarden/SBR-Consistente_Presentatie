@@ -11,7 +11,6 @@ _Voorbeeld_
 Stel een post bedraagt € 5.999.985. De opsteller wil dit bedrag afgerond rapporteren in de jaarrekening als € 6 miljoen.
 
 | **Afgerond bedrag** | **Afgekort bedrag** | **Bedrag in XBRL instance document**
- |
 | --- | --- | --- |
 | € 6.000.000 | 6.000 (x € '000') | 6000000 |
 | € 6.000.000 | 6 (x € '000.000') | 6000000 |
