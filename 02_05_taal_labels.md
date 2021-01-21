@@ -1,16 +1,10 @@
 ## Taal en labels
 
-**SCP 10: De Consistente Presentatie MOET de taal hanteren voor het weergeven van de labels van**
-
-**alle elementen op basis van de waarde van het xml:lang attribuut in de root van het instance**
-
-**document**
+**SCP 10: De Consistente Presentatie MOET de taal hanteren voor het weergeven van de labels van alle elementen op basis van de waarde van het xml:lang attribuut in de root van het instance document**
 
 In het @xml:lang in de root van het instance document staat aangegeven in welke taal de rapportage is opgesteld. De waarde van het @xml:lang bepaalt ook de taal van de labels welke gehanteerd worden voor het renderen van de gegevens.
 
-**SCP 11: De Consistente Presentatie MOET de generic labels uit de taxonomie hanteren voor**
-
-**enumeratiewaardes**
+**SCP 11: De Consistente Presentatie MOET de generic labels uit de taxonomie hanteren voor enumeratiewaardes**
 
 Voor het tonen van enumeratiewaardes dient gebruik te worden gemaakt van de generic labels die in de taxonomie zijn opgenomen. Hierdoor worden de technische waardes in het instance document dus omgezet naar een bepaalde taal op basis van de generic labels uit de taxonomie. Het is niet gewenst dat de ingevoerde waarde wordt getoond, aangezien dit een technische benaming is voor hetgeen is opgenomen in de relevante generic labels.
 

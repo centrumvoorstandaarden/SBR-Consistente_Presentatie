@@ -2,9 +2,7 @@
 
 Onder tekstopmaak wordt bestaan het verfraaien van een stuk platte tekst met de insteek om de tekst beter leesbaar of beter begrijpelijk te maken. In een instance document kunnen escaped HTML tags zijn opgenomen die de door de opsteller beoogde tekstopmaak aangeeft.
 
-**SCP-28: De Consistente Presentatie MOET de 'escaped' HTML tags als waarde van een concept met**
-
-**het datatype 'nl-types:formattedExplanationItemType' renderen als tekstopmaak**
+**SCP-28: De Consistente Presentatie MOET de 'escaped' HTML tags als waarde van een concept met het datatype 'nl-types:formattedExplanationItemType' renderen als tekstopmaak**
 
 In de tekstuele toelichtingen kan het gebruik van tekstopmaak een meerwaarde hebben. De tekstopmaak wordt gecodeerd met 'escaped' HTML. De toelichtingen waar het gebruik van tekstopmaak is toegestaan, hebben het datatype 'nl-types:formattedExplanationItemType'. Een opsteller is niet verplicht om dit type tekstopmaak toe te passen. Indien een instance document daadwerkelijk escaped HTML tags bevat, dient dit ook als tekstopmaak verwerkt te worden in de rendering.
 
@@ -36,9 +34,7 @@ een witte tekst op witte achtergrond is niet toegestaan. De verantwoordelijkheid
 
 leesbare rendering ligt zodoende bij de opsteller van de rapportage.
 
-**SCP-30.1: De Consistente Presentatie MOET (sub)totalen visueel aanduiden in de vorm van een**
-
-**telstreep boven het bedrag van het (sub)totaal**
+**SCP-30.1: De Consistente Presentatie MOET (sub)totalen visueel aanduiden in de vorm van een telstreep boven het bedrag van het (sub)totaal**
 
 Het tonen van een telstreep is een methode om visueel weer te geven dat sprake is van een (sub)totaal. De telstreep dient boven het bedrag van het sub(totaal) getoond te worden. De (sub)totalen zijn in een tabel te herkennen doordat zij in de taxonomie als een totalLabel bij het @preferredLabel attribuut van een arc worden aangeroepen.
 
@@ -54,9 +50,7 @@ Moet nog uitzoeken hoe tekst te onderstrepen in Markdown
 |                                              |            |
 |Totaal van voorraden                          |30.000      |
 
-**SCP-30.2 De Consistente Presentatie MAG totalen visueel aanduiden met een enkele of dubbele**
-
-**streep onder een totaal**
+**SCP-30.2 De Consistente Presentatie MAG totalen visueel aanduiden met een enkele of dubbele streep onder een totaal**
 
 Het is toegestaan om totalen, zowel subtotalen als eindtotalen, te voorzien van een enkele of dubbele telstreep onder het totaal. Deze totalen zijn te herkennen doordat zij door middel van een totalLabel worden aangeroepen in de taxonomie. Hierbij zijn eindtotalen te herkennen doordat zij in een roll-up node de hoogste 'parent' zijn die niet een sbr:presentationItem is.
 
@@ -78,9 +72,7 @@ _Voorbeeld_
 
 **SCP-30.5: [TIJDELIJKE REGEL] De Consistente Presentatie MOET de waardes van concepten in een**
 
-**totaaltelling met een afwijkende balanceType visueel onderscheiden door het gebruik van een**
-
-**minteken**
+**totaaltelling met een afwijkende balanceType visueel onderscheiden door het gebruik van een minteken**
 
 In een instance document dienen alle bedragen in principe als positieve waardes te worden ingevuld, ongeacht of dit kosten of opbrengsten - of - activa of passiva betreft. Dit vloeit voort uit het feit dat elk concept in de taxonomie een balanceType 'debit' of 'credit' heeft meegekregen. In de situatie dat concepten met verschillende balanceTypes bij elkaar opgeteld worden is hierdoor niet altijd helder hoe de optelling verloopt, aangezien de balanceTypes niet getoond worden. Het is echter gewenst dat bedragen met een afwijkende balanceType in een optelling visueel onderscheiden worden. De taxonomie dient te specificeren wanneer een minteken getoond dient te worden en wanneer niet.
 
@@ -97,8 +89,6 @@ _Voorschrift_
 |Bruto vorderingen op handelsdebiteuren         |100   |
 |Voorziening voor oninbaarheid                  |10    |
 |Netto vorderingen op handelsdebiteuren         |90    |
-
-
 
 
 
@@ -137,24 +127,17 @@ _Voorbeeld_
 |Totaal van som der kosten                                      |X  |
 |Totaal van bedrijfsresultaat                                   |X  |
 
-
-Opbrengst van vorderingen die tot de vaste activa behoren en van effecten X
-
-Vrijval uit herwaarderingsreserve X
-
-Waardeveranderingen van financiële vaste activa en van effecten X
-
-Financiële baten en lasten X
-
-Totaal van resultaat voor belastingen X
-
-Belastingen over de winst of het verlies -X
-
-Aandeel in resultaat van ondernemingen waarin wordt deelgenomen X
-
-Overige baten en lasten na belasting X
-
-Totaal van resultaat na belastingen X
+|     |    |
+| --- | ---|
+|Opbrengst van vorderingen die tot de vaste activa behoren en van effecten |X|
+|Vrijval uit herwaarderingsreserve |X|
+|Waardeveranderingen van financiële vaste activa en van effecten |X|
+|Financiële baten en lasten |X|
+|Totaal van resultaat voor belastingen |X|
+|Belastingen over de winst of het verlies |-X|
+|Aandeel in resultaat van ondernemingen waarin wordt deelgenomen |X|
+|Overige baten en lasten na belasting |X|
+|Totaal van resultaat na belastingen |X|
 
 De winst- en verliesrekening volgens de functionele indeling moet worden gerenderd conform het onderstaande voorbeeld:
 

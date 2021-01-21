@@ -7,9 +7,7 @@ Een tabel in de NT bevat altijd een zogenaamde tabel label; een label die gekopp
 
 In een tabel zullen in de meeste gevallen niet altijd alle kolommen of rijen worden gevuld met de waardes van feiten. Indien een rij en/of kolom leeg is, terwijl er wel waardes ingevuld zouden kunnen worden, voegt dit niets toe aan een tabel en moeten zodoende weggefilterd (geëlimineerd) worden uit de rendering. Als er sprake is van een abstract met bijbehorende kinderen die leeg zijn, dan wordt het geheel abstract en kinderen niet getoond.
 
-**SCP 07: De Consistente Presentatie MOET de header vullen met een dynamisch label (indien**
-
-**aanwezig)**
+**SCP 07: De Consistente Presentatie MOET de header vullen met een dynamisch label (indien aanwezig)**
 
 De headers van een kolom of rij in een tabel bevatten altijd een (statisch) label. In sommige gevallen moet de header gevuld worden met een label die afhankelijk is van de inhoud van het instance document zelf. Dit is vooral het geval wanneer een header van een tabel de datum(s) dient te bevatten van de huidige of voorgaande rapportageperiode(s).
 

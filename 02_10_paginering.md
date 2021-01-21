@@ -2,17 +2,11 @@
 
 Paginering is het proces om gegevens op één of meer verschillende pagina's weer te geven. Dit proces speelt een belangrijke rol om de rendering in een papier-georiënteerd formaat op te leveren.
 
-**SCP-23.5: De Consistente Presentatie MOET de titel boven de tekst plaatsen als het datatype van**
-
-**het concept een nl-types:formattedExplanationItemType of nl-types:string100000ItemType betreft**
+**SCP-23.5: De Consistente Presentatie MOET de titel boven de tekst plaatsen als het datatype van het concept een nl-types:formattedExplanationItemType of nl-types:string100000ItemType betreft**
 
 Een feit kan bestaan uit een grote hoeveelheid tekst. In het kader van het waarborgen van de leesbaarheid van het document is het verplicht om de titel boven de teksten te plaatsen in plaats van ernaast. Hierbij dienen de datatypes nl-types:formattedExplanationItemType of nltypes: string100000ItemType als de kenmerken in de taxonomie die aangeven of een titel boven de tekst geplaatst dient te worden.
 
-**SCP-23.6: De Consistente Presentatie MOET voor een specificatie tabel dat concepten bevat met**
-
-**een datatype dat is afgeleid van een xbrli:stringItemType, elke regel splitsen en deze regel**
-
-**gekanteld weergeven.**
+**SCP-23.6: De Consistente Presentatie MOET voor een specificatie tabel dat concepten bevat met een datatype dat is afgeleid van een xbrli:stringItemType, elke regel splitsen en deze regel gekanteld weergeven.**
 
 Een specificatie tabel is een tabel die gebruik maakt van typed dimensions. Een dergelijke tabel kan een grote hoeveelheid tekst bevatten waardoor het niet meer leesbaar is. In het kader van het waarborgen van de leesbaarheid is het van belang om elke regel van de tabel te kantelen. Dit is alleen van toepassing voor specificatie tabellen die bestaan uit concepten met een datatype dat is afgeleid van een xbrli:stringItemType. Tussen elke gekantelde regel dient een witregel opgenomen te worden.
 
@@ -64,9 +58,7 @@ Het is nadrukkelijk niet toegestaan om een tabel te transponeren (kantelen), aan
 
 regel SCP-23.6.
 
-**SCP 26: De Consistente Presentatie MOET een voorpagina creëren wanneer het output formaat**
-
-**.pdf is.**
+**SCP 26: De Consistente Presentatie MOET een voorpagina creëren wanneer het output formaat.pdf is.**
 
 Het is verplicht om een voorpagina te creëren voor de rendering wanneer het output formaat van de rendering .pdf is. Het is ook toegestaan om een voorpagina te creëren wanneer het output formaat HTML is, maar het is niet verplicht.
 
@@ -92,9 +84,7 @@ De plaats op de voorpagina waar deze informatie wordt opgenomen is niet voorgesc
 
 De labels van de eerste drie concepten (titel van het document, naam van de rechtspersoon en zetel van de rechtspersoon) hoeven niet opgenomen te worden op de voorpagina. De overige labels moeten wel opgenomen worden op de voorpagina.
 
-**SCP 27: De Consistente Presentatie MOET een inhoudsopgave genereren op basis van de in de**
-
-**taxonomie opgenomen presentatie hiërarchie wanneer het output formaat .pdf is**
+**SCP 27: De Consistente Presentatie MOET een inhoudsopgave genereren op basis van de in de taxonomie opgenomen presentatie hiërarchie wanneer het output formaat .pdf is**
 
 Het is verplicht om een inhoudsopgave op te nemen wanneer het output formaat van de rendering .pdf is. Hierbij mag naar paginanummers worden verwezen. Bij het output formaat HTML mag een inhoudsopgave of een navigatievenster worden gebruikt. Dit is echter niet verplicht. De titel hiervan moet 'Inhoudsopgave' zijn.
 
