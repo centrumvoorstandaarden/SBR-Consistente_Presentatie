@@ -13,11 +13,11 @@ Wanneer een tekstueel feit in het instance document een of meer line breaks beva
 _Voorbeeld_
 
 _Instance document:_
-
+'''
 \<concept\>Deze tekst\
 maakt\
 gebruik van line breaks.\<\/concept\>
-
+'''
 _Rendering:_
 
 Deze tekst\
