@@ -28,19 +28,20 @@ var respecConfig = {
   doJsonLd: true,
   editors: [
     {
-      name: "Erwin Kaats.",
+      name: "Aad Bergman",
       company: "Logius",
       companyURL: "http://www.logius.nl/",
     },
     {
-      name: "Pieter Hering",
+      name: "Erwin Kaats.",
       company: "Logius",
       companyURL: "http://www.logius.nl/",
     },
+    
   ],
   authors: [{
-    name: "Erwin Kaats",
-    url: "https://logius.nl/standaarden",
+    name: "SBR Expertgroep Jaarverantwoording",
+    url: "https://sbr-nl.nl",
   }
 ],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
