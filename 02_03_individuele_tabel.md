@@ -25,6 +25,6 @@ In de tabel van de balans worden de kolommen voor de huidige periode aangeduid m
 |Huidig             |2017-12-31         |
 |Voorgaand          |2016-12-31         |
 
-De statische labels 'Huidig' en 'Voorgaand' moeten worden vervangen door respectievelijk '2017-12-31' en '2016-12-31'.
+De statische labels 'Huidig' en 'Voorgaand' moeten worden vervangen door respectievelijk _'2017-12-31'_ en _'2016-12-31'_.
 
 Dit zijn de opgegeven einddatums van de huidige en voorgaande rapportageperiode in de XML datumnotatie.
