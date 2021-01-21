@@ -12,7 +12,7 @@ _Voorbeeld_
 | --- | --- | --- | --- |
 | A | monetaryItemType | iso4212:EUR (in geval van Euro's) | 'EUR' |
 | B | percentItemType | xbrli:pure | 'procent' |
-| C | decimalItemType | xbrli:pure | <niet van toepassing> |
+| C | decimalItemType | xbrli:pure | &lt;niet van toepassing&gt; |
 
 **SCP 13: De Consistente Presentatie MOET de naam voor eenheden renderen op basis van de**
 
@@ -38,8 +38,8 @@ _Voorbeeld_
 
 | **Eenheid in instance document** | **Naam van eenheid volgens UTR** | **Vertaling naar het Nederlands**
 | --- | --- | --- |
-| iso4212:EUR | 'EUR' | <niet van toepassing> |
-| iso4212:USD | 'USD' | <niet van toepassing> |
+| iso4212:EUR | 'EUR' | &lt;niet van toepassing&gt; |
+| iso4212:USD | 'USD' | &lt;niet van toepassing&gt; |
 | xbrli:shares | 'Shares' | 'Aandelen' |
 
 **SCP 15: De Consistente Presentatie KAN de naam of het symbool van de valuta voorafgaand aan**
