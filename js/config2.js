@@ -8,10 +8,10 @@ var respecConfig = {
   // TODO: emailComments: '...',
   // TODO: Voor pubDomain mogelijkheden zie https://github.com/Geonovum/respec/wiki/pubDomain
   // TODO: pubDomain: "...",
-
+ 
   // Vul in om een korte extra uitleg te weergeven op de docs.centrumvoorstandaarden.nl website.
   //subExplanation: "", 
-
+ 
   // Voor publishDate zie https://github.com/w3c/respec/wiki/publishDate
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
@@ -26,22 +26,24 @@ var respecConfig = {
   license: 'cc-by-nd',
   // logos: [], // Geef een lege array op als er geen Geonovum logo moet staan
   doJsonLd: true,
-  editors: [{
-    name: "Aad Bergman",
-    company: "Logius",
-    companyURL: "http://www.logius.nl/",
-  },
-  {
-    name: "Erwin Kaats.",
-    company: "Logius",
-    companyURL: "http://www.logius.nl/",
-  },
+  editors: [
+    {
+      name: "Aad Bergman",
+      company: "Logius",
+      companyURL: "http://www.logius.nl/",
+    },
+    {
+      name: "Erwin Kaats.",
+      company: "Logius",
+      companyURL: "http://www.logius.nl/",
+    },
+    
   ],
   authors: [{
     name: "SBR Expertgroep Jaarverantwoording",
     url: "https://sbr-nl.nl",
   }
-  ],
+],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
   shortName: "sbr-cp",
   // url van de github repository waar je in werkt
@@ -49,18 +51,12 @@ var respecConfig = {
   // url van de issue lijst in de github repository waar je in werkt
   //issueBase: "https://github.com/centrumvoorstandaarden/.../issues/",
   // in localBiblio kun je bibliografische items opnemen. In de tekst kun je dan tussen blokhaken verwijzen naar de korte naam bv [NEN3610].
-
-
-  nl_github: {
-    revision: "https://github.com/centrumvoorstandaarden/SBR-Consistente_Presentatie/commits",
-  },
   nl_markdownSplitH1sections: false,
   nl_organisationName: "Logius",
   nl_organisationPrefix: "LS-",
-  nl_markdownTableClass: "simple",
+  nl_markdownTableClass: "logius",
   nl_markdownEmbedImageInFigure: true,
-  nl_organisationStylesURL: "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
-  nl_organisationPublishURL: "https://publicatie.centrumvoorstandaarden.nl/",
+  nl_organisationStylesPath: "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
   //nl_organisationStylesPath: "http://localhost:8081/respec/style/",
   nl_logo: {
     src: "https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg",
