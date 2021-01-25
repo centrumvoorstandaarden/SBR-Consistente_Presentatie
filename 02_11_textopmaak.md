@@ -59,6 +59,7 @@ Moet nog uitzoeken hoe tekst te onderstrepen in Markdown
 </aside>
 
 _Voorbeeld_
+
 |                                              |            |
 |----------------------------------------------|------------|
 |Voorraad grond- en hulpstoffen                |10.000      |
@@ -84,15 +85,16 @@ Het totaal dient als anker; oftewel het balanceType van het totaal is leidend. P
 
 _Voorschrift_
 
-|Voorbeeld zonder toepassing van het algoritme  |      |
+Voorbeeld zonder toepassing van het algoritme
+|  |      |
 |-----------------------------------------------|------|
 |Bruto vorderingen op handelsdebiteuren         |100   |
 |Voorziening voor oninbaarheid                  |10    |
 |Netto vorderingen op handelsdebiteuren         |90    |
 
 
-
-|Voorbeeld met toepassing van het algoritme     |      |
+Voorbeeld met toepassing van het algoritme
+|     |      |
 |-----------------------------------------------|------|
 |Bruto vorderingen op handelsdebiteuren         |100   |
 |Voorziening voor oninbaarheid                  |-10   |
@@ -127,6 +129,7 @@ _Voorbeeld_
 |Totaal van som der kosten                                      |X  |
 |Totaal van bedrijfsresultaat                                   |X  |
 
+
 |     |    |
 | --- | ---|
 |Opbrengst van vorderingen die tot de vaste activa behoren en van effecten |X|
@@ -143,33 +146,22 @@ De winst- en verliesrekening volgens de functionele indeling moet worden gerende
 
 _Voorbeeld_
 
-Bruto-bedrijfsresultaat X
-
-Verkoopkosten X
-
-Algemene beheerskosten X
-
-Totaal van som der kosten X
-
-Totaal van bedrijfsresultaat X
-
-Opbrengst van vorderingen die tot de vaste activa behoren en van effecten X
-
-Vrijval uit herwaarderingsreserve X
-
-Waardeveranderingen van financiële vaste activa en van effecten X
-
-Financiële baten en lasten X
-
-Totaal van resultaat voor belastingen X
-
-Belastingen over de winst of het verlies -X
-
-Aandeel in resultaat van ondernemingen waarin wordt deelgenomen X
-
-Overige baten en lasten na belasting X
-
-Totaal van resultaat na belastingen X
+|     |    |
+| --- | ---|
+|Bruto-bedrijfsresultaat |X|
+|Verkoopkosten |X|
+|Algemene beheerskosten |X|
+|Totaal van som der kosten |X|
+|Totaal van bedrijfsresultaat |X|
+|Opbrengst van vorderingen die tot de vaste activa behoren en van effecten |X|
+|Vrijval uit herwaarderingsreserve |X|
+|Waardeveranderingen van financiële vaste activa en van effecten |X|
+|Financiële baten en lasten |X|
+|Totaal van resultaat voor belastingen |X|
+|Belastingen over de winst of het verlies |-X|
+|Aandeel in resultaat van ondernemingen waarin wordt deelgenomen |X|
+|Overige baten en lasten na belasting |X|
+|Totaal van resultaat na belastingen |X|
 
 **SCP-30.6: [TIJDELIJKE REGEL – GELDIG VANAF NT15!] De Consistente Presentatie MOET de winst- en verliesrekening renderen met totaalstrepen**
 
@@ -181,76 +173,42 @@ De winst- en verliesrekening volgens de categoriale indeling moet worden gerende
 
 _Voorschrift_
 
-Bruto-bedrijfsresultaat X
-
-Lasten uit hoofde van personeelsbeloningen X
-
-Afschrijvingen op immateriële en materiële vaste activa X
-
-Waardeveranderingen van immateriële en materiële vaste activa X
-
-Waardeveranderingen van vastgoedbeleggingen X
-
-Gerealiseerde waardeveranderingen van beleggingen X
-
-Niet-gerealiseerde waardeveranderingen van beleggingen X
-
-Waardeveranderingen van agrarische voorraden X
-
-Bijzondere waardeverminderingen van vlottende activa
-
-Overige bedrijfskosten X
-
-Totaal van som der kosten Xv
-
-Totaal van bedrijfsresultaat X
-
-Opbrengst van vorderingen die tot de vaste activa behoren en van effecten X
-
-Vrijval uit herwaarderingsreserve X
-
-Waardeveranderingen van financiële vaste activa en van effecten X
-
-Financiële baten en lasten X
-
-Totaal van resultaat voor belastingen X
-
-Belastingen over de winst of het verlies -X
-
-Aandeel in resultaat van ondernemingen waarin wordt deelgenomen X
-
-Overige baten en lasten na belasting X
-
-Totaal van resultaat na belastingen X
-
-De winst- en verliesrekening volgens de functionele indeling moet worden gerenderd conform het onderstaande voorbeeld:
+|Bruto-bedrijfsresultaat |X|
+|Lasten uit hoofde van personeelsbeloningen |X|
+|Afschrijvingen op immateriële en materiële vaste activa |X|
+|Waardeveranderingen van immateriële en materiële vaste activa |X|
+|Waardeveranderingen van vastgoedbeleggingen |X|
+|Gerealiseerde waardeveranderingen van beleggingen |X|
+|Niet-gerealiseerde waardeveranderingen van beleggingen |X|
+|Waardeveranderingen van agrarische voorraden |X|
+|Bijzondere waardeverminderingen van vlottende activa
+|Overige bedrijfskosten |X|
+|Totaal van som der kosten |Xv|
+|Totaal van bedrijfsresultaat |X|
+|Opbrengst van vorderingen die tot de vaste activa behoren en van effecten |X|
+|Vrijval uit herwaarderingsreserve |X|
+|Waardeveranderingen van financiële vaste activa en van effecten |X|
+|Financiële baten en lasten |X|
+|Totaal van resultaat voor belastingen |X|
+|Belastingen over de winst of het verlies |-X|
+|Aandeel in resultaat van ondernemingen waarin wordt deelgenomen |X|
+|Overige baten en lasten na belasting |X|
+|Totaal van resultaat na belastingen |X|
+|De winst- en verliesrekening volgens de functionele indeling moet worden gerenderd conform het onderstaande voorbeeld:
 
 _Voorschrift_
 
-Bruto-bedrijfsresultaat X
-
-Verkoopkosten X
-
-Algemene beheerskosten X
-
-Totaal van som der kosten X
-
-Totaal van bedrijfsresultaat X
-
-Opbrengst van vorderingen die tot de vaste activa behoren en van effecten X
-
-Vrijval uit herwaarderingsreserve X
-
-Waardeveranderingen van financiële vaste activa en van effecten X
-
-Financiële baten en lasten X
-
-Totaal van resultaat voor belastingen X
-
-Belastingen over de winst of het verlies -X
-
-Aandeel in resultaat van ondernemingen waarin wordt deelgenomen X
-
-Overige baten en lasten na belasting X
-
-Totaal van resultaat na belastingen X
+|Bruto-bedrijfsresultaat |X|
+|Verkoopkosten |X|
+|Algemene beheerskosten |X|
+|Totaal van som der kosten |X|
+|Totaal van bedrijfsresultaat |X|
+|Opbrengst van vorderingen die tot de vaste activa behoren en van effecten |X|
+|Vrijval uit herwaarderingsreserve |X|
+|Waardeveranderingen van financiële vaste activa en van effecten |X|
+|Financiële baten en lasten |X|
+|Totaal van resultaat voor belastingen |X|
+|Belastingen over de winst of het verlies |-X|
+|Aandeel in resultaat van ondernemingen waarin wordt deelgenomen |X|
+|Overige baten en lasten na belasting |X|
+|Totaal van resultaat na belastingen |X|
