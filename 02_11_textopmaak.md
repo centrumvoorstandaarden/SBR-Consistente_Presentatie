@@ -173,6 +173,8 @@ De winst- en verliesrekening volgens de categoriale indeling moet worden gerende
 
 _Voorschrift_
 
+|     |    |
+| --- | ---|
 |Bruto-bedrijfsresultaat |X|
 |Lasten uit hoofde van personeelsbeloningen |X|
 |Afschrijvingen op immateriële en materiële vaste activa |X|
@@ -198,6 +200,8 @@ _Voorschrift_
 
 _Voorschrift_
 
+|     |    |
+| --- | ---|
 |Bruto-bedrijfsresultaat |X|
 |Verkoopkosten |X|
 |Algemene beheerskosten |X|
