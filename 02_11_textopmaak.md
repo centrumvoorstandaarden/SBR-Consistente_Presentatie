@@ -86,6 +86,7 @@ Het totaal dient als anker; oftewel het balanceType van het totaal is leidend. P
 _Voorschrift_
 
 Voorbeeld zonder toepassing van het algoritme
+
 |  |      |
 |-----------------------------------------------|------|
 |Bruto vorderingen op handelsdebiteuren         |100   |
@@ -94,6 +95,7 @@ Voorbeeld zonder toepassing van het algoritme
 
 
 Voorbeeld met toepassing van het algoritme
+
 |     |      |
 |-----------------------------------------------|------|
 |Bruto vorderingen op handelsdebiteuren         |100   |
