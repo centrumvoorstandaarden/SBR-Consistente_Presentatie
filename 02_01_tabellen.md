@@ -1,6 +1,6 @@
-## Tabellen
+# Tabellen
 
-**SCP 01: De Consistente Presentatie MOET de tabellen toepassen zoals opgenomen in de table linkbases binnen de DTS**
+## **SCP 01: De Consistente Presentatie MOET de tabellen toepassen zoals opgenomen in de table linkbases binnen de DTS**
 
 In de DTS zijn door de taxonomie auteur tabellen opgenomen in de vorm van table linkbases die de basis vormen van de Consistente Presentatie. Deze tabellen moeten worden toegepast zoals ze zijn opgenomen in de table linkbase.
 
@@ -23,11 +23,11 @@ In de tabel in de table linkbase is ook een bepaalde hiërarchie te zien tussen 
 
 De tabel filters zijn filters die veelvuldig worden gebruikt om de relevante aspecten van het in te vullen feit mee te geven in de tabel zoals opgenomen in de table linkbase. De tabel filters hebben tot doel om de juiste feiten in het instance document op te nemen. Ze moeten echter niet worden getoond in de rendering van een tabel.
 
-**SCP 02: De Consistente Presentatie MOET lege tabellen wegfilteren**
+## **SCP 02: De Consistente Presentatie MOET lege tabellen wegfilteren**
 
 Een tabel is leeg wanneer er geen feiten in het instance document staan die in een tabel getoond worden. Lege tabellen voegen niets toe en moeten zodoende weg gefilterd (geëlimineerd) worden uit de presentatie.
 
-**SCP-02.1: De Consistente Presentatie MOET tabellen met de string &quot;PeriodeVoorgaandTypeJaarrekeningVerloopoverzicht&quot; in de table id wegfilteren waarin uitsluitend feiten met contexten met identieke datum van het periodetype instant zijn opgenomen, waarbij de datum gelijk is aan de FinancialReportingPeriodPreviousEndDate.**
+## **SCP-02.1: De Consistente Presentatie MOET tabellen met de string &quot;PeriodeVoorgaandTypeJaarrekeningVerloopoverzicht&quot; in de table id wegfilteren waarin uitsluitend feiten met contexten met identieke datum van het periodetype instant zijn opgenomen, waarbij de datum gelijk is aan de FinancialReportingPeriodPreviousEndDate.**
 
 Dit betreft verloopoverzichten voorgaande perioden waarbij uitsluitend de waarden voor het einde van de periode worden getoond en er geen waarden aan het begin van de periode en mutaties gedurende de periode (het verloop) worden getoond.
 
