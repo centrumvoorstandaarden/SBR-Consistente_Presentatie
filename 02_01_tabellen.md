@@ -38,3 +38,15 @@ Dit betreft verloopoverzichten voorgaande perioden waarbij uitsluitend de waarde
 De waarden aan het einde van de (voorgaande) periode worden in zo'n situatie ook al als waarden aan het begin van de huidige periode in het verloopoverzicht huidige periode gepresenteerd.
 
 De verloopoverzichten huidige periode en voorgaande periode zijn in separate table linkbases gedefinieerd. Deze regel is alleen van toepassing op de tabel zoals gedefinieerd in de table linkbase van verloopoverzichten voorgaande periode.
+
+**Onderstaande bestanden zijn onderdeel van de CP-suite:**
+[SCP01-consistente-rendering_balans.xlsx](https://github.com/centrumvoorstandaarden/SBR-Consistente_Presentatie/files/6647992/SCP01-consistente-rendering_balans.xlsx)
+![SCP01-Balans](https://user-images.githubusercontent.com/78546076/121887013-77ee1b80-cd16-11eb-9c94-a82ce2281c46.JPG)
+
+- Ik kan het xbrl bestand nie toevoegen. Wordt niet herkend als geaccepteerd formaat!! -
+[SCP01-consistente-rendering_kasstroomoverzicht.xlsx](https://github.com/centrumvoorstandaarden/SBR-Consistente_Presentatie/files/6648005/SCP01-consistente-rendering_kasstroomoverzicht.xlsx)
+[SCP01-consistente-rendering_verloopoverzicht.xlsx](https://github.com/centrumvoorstandaarden/SBR-Consistente_Presentatie/files/6648006/SCP01-consistente-rendering_verloopoverzicht.xlsx)
+[SCP01-consistente-rendering_uitsplitsing.xlsx](https://github.com/centrumvoorstandaarden/SBR-Consistente_Presentatie/files/6648007/SCP01-consistente-rendering_uitsplitsing.xlsx)
+
+
+
